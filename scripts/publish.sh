@@ -20,6 +20,6 @@ git commit -m "${1:-Update robotics blog}"
 
 echo "Pushing to GitHub..."
 
-proxycharins git push origin main
+proxychains git push origin main
 
 echo "Published to GitHub."
