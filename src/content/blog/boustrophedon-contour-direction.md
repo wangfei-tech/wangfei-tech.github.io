@@ -3,10 +3,10 @@ title: '弓字形路径异常排查：障碍物轮廓方向如何影响 Cell 分
 excerpt: '从反转障碍物轮廓后恢复正常的案例出发，梳理有向面积、CEILING/FLOOR 事件分类、扫描线排序与 Cell 边界校验之间的关系。'
 publishDate: '2026-11-03'
 tags:
-  - 机器人
-  - 路径规划
+  - Robotics
+  - Path Planning
   - OpenCV
-  - C++
+  - CPP
 ---
 
 弓字形覆盖路径出现大量异常点时，问题可能来自更早的区域分解环节。本次 Q5 排障中，用户反馈将 `reverse_contour` 改为 `true` 后恢复正常。这提示我们：输入轮廓的遍历方向，是事件分类器必须明确约定的一部分。
