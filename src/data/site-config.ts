@@ -3,14 +3,14 @@ import hero from '../assets/images/hero.jpg';
 import type { SiteConfig } from '../types';
 
 const siteConfig: SiteConfig = {
-    website: 'https://example.com',
+    website: 'https://github.com/wangfei-tech/wf.github.io',
     avatar: {
         src: avatar,
         alt: 'Ethan Donovan'
     },
-    title: 'Dante',
-    subtitle: 'Minimal Astro.js theme',
-    description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
+    title: 'Robotics Engineering',
+    subtitle: 'ROS 2 | SLAM | Navigation | C++',
+    description: '个人机器人技术博客，记录 ROS 2、SLAM、自主导航、覆盖路径规划与机器人运动控制相关的算法研究和工程实践',
     image: {
         src: '/dante-preview.jpg',
         alt: 'Dante - Astro.js and Tailwind CSS theme'
@@ -66,16 +66,16 @@ const siteConfig: SiteConfig = {
         }
     ],
     hero: {
-        title: 'Hi There & Welcome to My Corner of the Web!',
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence.\nMy approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products.\nI have a profound appreciation for top-notch software, visual design, and the principles of product-led growth.\n\nFeel free to explore some of my coding endeavors on [GitHub](https://github.com/JustGoodUI/dante-astro-theme) or follow me on [Twitter/X](https://twitter.com/justgoodui).",
+        title: 'Building Intelligent Mobile Robots',
+        text: "专注于移动机器人自主导航、定位建图与运动控制。主要技术方向包括 **ROS 2、SLAM、Nav2、Coverage Path Planning 和 C++**。这个网站用于记录我的机器人算法项目、工程问题分析以及实际机器人测试成果。欢迎浏览我的项目与技术文章。",
         image: {
             src: hero,
             alt: 'A person sitting at a desk in front of a computer'
         },
         actions: [
             {
-                text: 'Get in Touch',
-                href: '/contact'
+                text: 'Explore My Projects',
+                href: '/projects'
             }
         ]
     },
